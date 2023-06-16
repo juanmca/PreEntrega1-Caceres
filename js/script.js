@@ -25,7 +25,7 @@ function personalizarEvento() {
   console.log("Incluir bebidas: " + incluirBebidas);
   console.log("Costo total: €" + totalCosto);
 
-  alert("El evento ha sido personalizado. ¡Gracias por su elección!");
+  alert("Organizaste tu evento. ¡Gracias por elegirnos!");
 }
 
 // lo uso calcular el costo total del evento
@@ -44,7 +44,7 @@ function calcularCostoEvento(tipoEvento, invitadosAdultos, invitadosNinos, inclu
       costoPorPersona = preciosEventos.gauchoFull;
       break;
     default:
-      console.log("Tipo de evento no válido.");
+      console.log("Evento no válido.");
       return 0;
   }
 
